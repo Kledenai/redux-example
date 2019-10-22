@@ -1,6 +1,6 @@
 import React from "react";
-
-// import { Container } from './styles';
+import { bindActionCreators } from "redux";
+import * as todoActions from "../../store/actions/todos";
 
 export default function List() {
   return (
