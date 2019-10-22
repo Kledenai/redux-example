@@ -1,10 +1,12 @@
 import React from "react";
 import { Provider } from "react-redux";
+import { store } from "./store";
+import List from "./components/List";
 
 function App() {
   return (
-    <Provider>
-      <div>Hey</div>
+    <Provider store={store}>
+      <List />
     </Provider>
   );
 }
